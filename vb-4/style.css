@@ -1,0 +1,26 @@
+
+/*Style untuk Navbar*/
+.navbar-item a {
+	font-weight: bold;
+	color: black;
+}
+
+.navbar-item a:hover {
+	font-weight: bold;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+}
+
+	/*style untuk Carousel*/
+/*Tampilan Mobile*/
+.carousel-item img {
+	height: 100px;
+}
+
+/*Tampilan Desktop*/
+@media screen and (min-width: 500px) {
+	.carousel-item img {
+		height: 250px;
+	}
+}

@@ -1,0 +1,13 @@
+
+/*Style untuk Navbar*/
+.navbar-item a {
+	font-weight: bold;
+	color: black;
+}
+
+.navbar-item a:hover {
+	font-weight: bold;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+}

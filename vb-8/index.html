@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html leng="en">
+	<head>
+		<title>Lorem ipsum</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		
+		<script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Navbar -->
+			<div class="navbar navbar-expand-sm sticky-top bg-light border-bottom border-5">
+				<div class="container">
+					<!-- Logo -->
+					<a class="navbar-brand" href="#">
+						<img src="..//Image/logo.png" style="width: 70px">
+					</a>
+			
+					<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<!-- Navigation Bar -->
+						<ul class="navbar-nav ms-auto">
+							<li class="navbar-item">
+								<a class="nav-link " href="#">Home</a>
+							</li>
+
+							<li class="navbar-item">
+								<a class="nav-link" href="#Card-Produk">Produk</a>
+							</li>
+
+							<li class="navbar-item">
+								<a class="nav-link" href="#">Tentang</a>
+							</li>
+
+							<li class="navbar-item">
+								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">From Pemesanan</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Carousel -->
+			<div class="container my-4">
+				<div id="demo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+					<!-- Slide -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../Image/gmbr2.jpg" class="d-block mx-auto">
+						</div>
+						
+						<div class="carousel-item">
+							<img src="../Image/gmbr3.jpg" class="d-block mx-auto">
+						</div>
+						
+						<div class="carousel-item">
+							<img src="../Image/gmbr4.jpg" class="d-block mx-auto">
+						</div>
+						
+						<div class="carousel-item">
+							<img src="../Image/gmbr5.jpg" class="d-block mx-auto">
+						</div>
+					</div>
+
+					<!-- Left and right control icon -->
+					<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</button>
+
+					<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</button>
+				</div>
+			</div>
+
+			<!-- Jumbotron -->
+			<div class="my-4 p-3 bg-secondary text-white text-center">
+				<h1 class="text-center">PROMO</h1>
+
+				<p class="lead">
+					TUKU O NDANG
+				</p>
+
+				<hr class="my-3">
+
+				<p>NK PINGIN TUKU PETEK EN NISOR IKI</p>
+
+				<a href="#" role="button" class="btn btn-light mx-auto">TUKU</a>
+			</div>
+
+			<!-- Card -->
+			<div class="row" id="Card-Produk">
+				<div class="col">
+					<h4>Kategori Produk</h4>
+				</div>
+			</div>
+
+			<div class="row my-4" id="Card-Produk">
+				<div class="col-lg-3 my-2" style="max-width: 300px">
+					<div class="card border-0">
+						<div class="text-center">
+							<img class="card-img-top mx-auto d-block" src="../Image/gmbr6.jpg" style="width: 75%">
+						</div>
+						
+						<div class="card-body">
+							<h4 class="card-title">HOODIE TIEDYE NIKE</h4>
+							<hr class="my-0">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+							<a href="#" class="btn btn-primary">dolor sit</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 my-2" style="max-width: 300px">
+					<div class="card border-0">
+						<img class="card-img-top mx-auto d-block" src="../Image/gmbr5.jpg">
+						
+						<div class="card-body">
+							<h4 class="card-title">JAKET HITAM NIKE TAMAN PINANG</h4>
+							<hr class="my-0">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+							<a href="#" class="btn btn-primary">dolor sit</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 my-2" style="max-width: 300px">
+					<div class="card border-0">
+						<img class="card-img-top mx-auto d-block" src="../Image/gmbr4.jpg">
+						
+						<div class="card-body">
+							<h4 class="card-title">LENGAN PANJANG NIKE</h4>
+							<hr class="my-0">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+							<a href="#" class="btn btn-primary">dolor sit</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 my-2" style="max-width: 300px">
+					<div class="card border-0">
+						<img class="card-img-top mx-auto d-block" src="../Image/gmbr3.jpg">
+						
+						<div class="card-body">
+							<h4 class="card-title">JAKET COKLAT NIKE TAMAN PINANG</h4>
+							<hr class="my-0">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+							<a href="#" class="btn btn-primary">dolor sit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Promosi (Kolom dan Tabel) -->
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col text-center bg-secondary text-white">
+						<h1>Diskon Produk NIKE</h1>
+					</div>
+				</div>
+
+				<div class="row mb-4">
+					<div class="col-lg-4">
+						<img class="mx-auto d-block" src="../Image/gmbr5.jpg" style="width: 250px">
+					</div>
+
+					<div class="col-lg-4">
+						<table class="table table-responsive-sm table-striped table-hover table-bordered table-sm mx-auto">
+							<thead class="table-dark">
+								<tr>
+									<th>KAOS</th>
+									<th>CAMPUR</th>
+									<th>Diskon</th>
+								</th>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td>NIKE</td>
+									<td>ADIDAS</td>
+									<td>10%</td>
+								</tr>
+
+								<tr>
+									<td>VANS</td>
+									<td>CONVERSE</td>
+									<td>25%</td>
+								</tr>
+
+								<tr>
+									<td>ERIGO</td>
+									<td>KAOS KAKI</td>
+									<td>20%</td>
+								</tr>
+
+								<tr>
+									<td>ESSE</td>
+									<td>CICIN</td>
+									<td>30%</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="col-lg-4">
+						<img class="mx-auto d-block" src="../Image/gmbr4.jpg" style="height: 250px">
+					</div>
+				</div>
+			</div>
+
+			<hr class="mt-5 mb-3">
+
+			<!-- Footer -->
+			<div class="container">
+				<div class="row mb-2">
+					<div class="col">
+						<img src="../Image/logo.png" style="width: 90px">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4 my-2">
+						<strong>Product</strong>
+						<div class="mt-2">
+							<a class="text-decoration-none text-dark" href="#">HOODIE</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">KAOS</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">JAKET</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">CELANA</a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 my-2">
+						<strong>Social media</strong>
+						<div class="mt-2">
+							<a class="text-decoration-none text-dark" href="#">Facebook Page</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Instagram</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Twitter</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Youtube Channel</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Telegram Channel</a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 my-2">
+						<strong>Company</strong>
+						<div class="mt-2">
+							<a class="text-decoration-none text-dark" href="#">About</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">FAQs</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal dan Form Pemesanan -->
+			<div class="modal" id="myModal">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Formulir Pemesanan</h4>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+
+						<div class="modal-body">
+							<form>
+								<!-- Nama -->
+								<div class="row mb-3">
+									<div class="col-lg-6">
+										<label class="form-label">Nama depan</label>
+										<input type="text" class="form-control">
+									</div>
+
+									<div class="col-lg-6">
+										<label class="form-label">Nama belakang</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+								<!-- Email dan No. Telepon -->
+								<div class="row mb-3">
+									<div class="col-lg-6">
+										<label class="form-label">Email</label>
+										<input type="email" class="form-control">
+									</div>
+
+									<div class="col-lg-6">
+										<label class="form-label">No. Telepon</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+								<!-- Alamat, Kota, dan Kode Pos -->
+								<div class="row mb-3">
+									<div class="col-lg-6">
+										<label class="form-label">Alamat</label>
+										<input type="text" class="form-control">
+									</div>
+
+									<div class="col-lg-6">
+										<label class="form-label">Kode Pos</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</form>
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Kirim</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+	</body>
+</html>
